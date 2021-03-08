@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap");
+@media screen and (max-width: 500px) {
+  .main-header {
+    position: relative;
+    width: 100%;
+    height: 23vh;
+  }
+  .main-header .main-nav {
+    position: absolute;
+    width: 100%;
+    height: 8vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #052340;
+  }
+  .main-header .main-nav .nav-list {
+    display: none;
+  }
+  .main-header .main-nav .menu {
+    position: absolute;
+    right: 2em;
+    font-size: 2em;
+    color: #fff;
+    display: block;
+  }
+  .main-header .main-nav .logo {
+    position: absolute;
+    left: 2em;
+    width: 8vw;
+    height: 5vh;
+  }
+  .main-header .main-nav .logo .logo-img {
+    width: 8vw;
+    height: 5vh;
+  }
+  .gallery-section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .gallery-section .first-row {
+    position: relative;
+  }
+  .gallery-section .first-row #mobile-gallery {
+    position: absolute;
+    top: 3em;
+    left: 6em;
+    width: 60vw;
+    height: 178vh;
+    display: block;
+  }
+  .gallery-section .first-row .images-first-row {
+    position: absolute;
+    width: 60vw;
+    height: 140vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .gallery-section .first-row .images-first-row .img {
+    position: absolute;
+    top: 8em;
+    left: 9em;
+    width: 40vw;
+    height: 35vh;
+  }
+  .gallery-section .first-row .images-first-row .img img {
+    position: absolute;
+    width: 40vw;
+    height: 35vh;
+  }
+  .gallery-section .first-row .images-first-row .img-1 {
+    position: absolute;
+    top: 50em;
+    left: 9em;
+    width: 40vw;
+    height: 35vh;
+  }
+  .gallery-section .first-row .images-first-row .img-1 img {
+    position: absolute;
+    width: 40vw;
+    height: 35vh;
+  }
+  .gallery-section .first-row .images-first-row .img-2 {
+    position: absolute;
+    left: 9em;
+    top: 29em;
+    width: 40vw;
+    height: 35vh;
+  }
+  .gallery-section .first-row .images-first-row .img-2 img {
+    position: absolute;
+    width: 40vw;
+    height: 35vh;
+  }
+  .gallery-section .first-row .images-first-row .img-3 {
+    position: absolute;
+    width: 20vw;
+    height: 35vh;
+  }
+  .gallery-section .first-row .images-first-row .img-3 img {
+    position: absolute;
+    top: 45em;
+    left: 3em;
+    width: 40vw;
+    height: 35vh;
+  }
+  .main-footer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 100em;
+  }
+  .main-footer .footer-content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  .main-footer .footer-content img {
+    width: 100%;
+    height: 50vh;
+  }
+  .main-footer .social-media {
+    position: absolute;
+    width: 100%;
+    height: 26vh;
+  }
+  .main-footer .social-media h3 {
+    position: absolute;
+    top: 1em;
+    left: 4em;
+    font-family: "Roboto", sans-serif;
+    color: #ddd;
+    font-size: 1.8em;
+  }
+  .main-footer .social-media .social-icons {
+    position: absolute;
+    top: 2.4em;
+    left: 4em;
+    font-size: 2.5em;
+    color: #ddd;
+  }
+  .main-footer .news-letter {
+    position: absolute;
+    top: 13em;
+    width: 100%;
+    height: 23vh;
+  }
+  .main-footer .news-letter h3 {
+    position: absolute;
+    left: 4em;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.9em;
+    color: #ddd;
+  }
+  .main-footer .news-letter .news-input {
+    position: absolute;
+    top: 5em;
+    left: 8em;
+    width: 42vw;
+    height: 6vh;
+    border: none;
+  }
+  .main-footer .news-letter button {
+    position: absolute;
+    top: 5em;
+    left: 23em;
+    width: 14vw;
+    height: 6vh;
+    border: none;
+    background: #FFEFA1;
+    font-weight: 600;
+    color: #413C69;
+  }
+}
+/*# sourceMappingURL=responsive-gallery.css.map */

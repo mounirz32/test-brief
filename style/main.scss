@@ -1,0 +1,437 @@
+@import "variables";
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.menu {
+   display: none;
+}
+
+.main-header {
+   position: relative;
+   width: 100%;
+   height: 100vh;
+
+
+   .main-nav {
+      width: 100%;
+      height: 8vh;
+      background-color: $navBar-color;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+
+      .logo {
+         position: relative;
+         right: 17em;
+         bottom: 0.4em;
+         width: 10vw;
+         height: 5vh;
+
+         .logo-img {
+            width: 10vw;
+            height: 6vh;
+         }
+      }
+
+      .nav-list {
+         position: relative;
+         left: 10em;
+         .nav-items {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            
+            .links {
+               text-decoration: none;
+               color: #ddd;
+               padding: 14px 15px;
+               font-family: $text-font;
+            }
+         }
+      }
+   }
+
+   .header-image {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+   }
+
+   .header-text {
+      position: absolute;
+      bottom: 33em;
+      left: 14em;
+      width: 50vw;
+
+      h1 {
+         font-family: $text-font;
+         font-size: 3em;
+         color: $text-color;
+      }   
+   }
+      .header-btn {
+         position: absolute;
+         bottom: 20em;
+         left: 22em;
+         width: 20vw;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+
+         .btn-1{
+            position: relative;
+            width: 10vw;
+            height: 6vh;
+            border: none;
+            background: $btn-color;
+            color: $text-color;
+            text-transform: uppercase;
+            align-items: center;
+            font-weight: 600;
+            margin-left: 10px;
+         }
+   }
+
+   .book-img {
+      position: absolute;
+      bottom: 10em;
+      left: 66em;
+      width: 20vw;
+      height: 60vh;
+
+      .header-book {
+         position: absolute;
+         width: 20vw;
+         height: 60vh;
+         box-shadow: 5px 7px 18px;
+      }
+   }
+}
+.best-book-seller {
+   position: relative;
+   width: 100%;
+   height: 100vh;
+
+   .seller-background {
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+   }
+
+   .book-header-text {
+      width: 40vw;
+      height: 10vh;
+      position: absolute;
+      top: 12em;
+      left: 42em;
+
+      h1 {
+         font-family: $text-font;
+         color: $text-color;
+         font-size: 2.4em;
+      }
+   }
+
+   .books {
+      position: absolute;
+      bottom: 7em;
+      left: em;
+      width: 100%;
+      height: 50vh;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+
+      .img {
+         width: 14vw;
+         height: 40vh;
+         box-shadow: 5px 7px 18px;
+
+         img {
+            width: 14vw;
+            height: 40vh;
+         }
+      }
+   }
+}
+
+.about {
+   width: 100%;
+   height: 100vh;
+   position: absolute;
+
+   .background {
+      width: 100%;
+      height: 100%;
+
+      img {
+         width: 100%;
+         height: 100vh;
+      }
+   }
+
+   .about-title {
+      width: 40vw;
+      position: relative;
+      bottom: 87%;
+      left: 43%;
+
+      h1 {
+         font-family: $text-font;
+         color: $text-color;
+         font-size: 2.4em;
+      }
+   }
+
+   .about-description {
+      width: 50vw;
+      height: 50vh;
+      position: relative;
+      bottom: 80%;
+      left: 23.5%;
+      text-align: center;
+
+      P {
+         position: absolute;
+         top: 1em;
+         font-size: 1.6em;
+         font-family: $text-font;
+      }
+   }
+}
+
+.auther-section {
+   width: 100%;
+   height: 100%;
+   position: relative;
+
+   .auther-background {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+
+      .auther-img {
+         width: 100%;
+         height: 100vh;
+         position: absolute;
+         top: 53%;
+      }
+   }
+
+   .auther-profiles {
+      width: 100%;
+      height: 70%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+
+      .auther {
+         width: 14vw;
+         height: 40vh;
+         position: relative;
+         box-shadow: 5px 7px 18px;
+         background: $navBar-color;
+         border-radius: 10px;
+
+         img {
+            position: absolute;
+            top: 3em;
+            left: 4.4em;
+            width: 5vw;
+            height: 9vh;
+            border-radius: 50%;
+         }
+
+         .auther-name{
+            position: absolute;
+            top: 8em;
+            left: 3em;
+            color: #ddd;
+            font-family: $text-font;
+            font-size: 1.2em;
+         }
+
+         .auther-rating {
+            position: absolute;
+            top: 13em;
+            left: 4.4em;
+
+            i {
+               color: $btn-color;
+            }
+         }
+      }
+
+      .auther-1 {
+         width: 14vw;
+         height: 40vh;
+         position: relative;
+         box-shadow: 5px 7px 18px;
+         background: $navBar-color;
+         border-radius: 10px;
+
+         img {
+            position: absolute;
+            top: 3em;
+            left: 4.4em;
+            width: 5vw;
+            height: 9vh;
+            border-radius: 50%;
+         }
+
+         .auther-name{
+            position: absolute;
+            top: 8em;
+            left: 3em;
+            color: #ddd;
+            font-family: $text-font;
+            font-size: 1.2em;
+         }
+
+         .auther-rating {
+            position: absolute;
+            top: 13em;
+            left: 4.9em;
+
+            i {
+               color: $btn-color;
+            }
+         }
+      }
+
+      .auther-3 {
+         width: 14vw;
+         height: 40vh;
+         position: relative;
+         box-shadow: 5px 7px 18px;
+         background: $navBar-color;
+         border-radius: 10px;
+
+         img {
+            position: absolute;
+            top: 3em;
+            left: 4.4em;
+            width: 5vw;
+            height: 9vh;
+            border-radius: 50%;
+         }
+
+         .auther-name{
+            position: absolute;
+            top: 8em;
+            left: 3em;
+            color: #ddd;
+            font-family: $text-font;
+            font-size: 1.2em;
+         }
+
+         .auther-rating {
+            position: absolute;
+            top: 13em;
+            left: 5.7em;
+
+            i {
+               color: $btn-color;
+            }
+         }
+      }
+   }
+
+   .auther-title {
+      position: absolute;
+      left: 43.4%;
+      bottom: 35%;
+      width: 30vw;
+
+      h1 {
+         font-family: $text-font;
+         color: $text-color;
+         font-size: 2.4em;
+      }
+
+   } 
+}
+
+.main-footer {
+      width: 100%;
+      height: 80%;
+      position: relative;
+
+      .footer-content {
+         position: absolute;
+         width: 100%;
+         height: 80%;
+         top: 6em;
+
+         img {
+            width: 100%;
+            height: 60vh;
+         }
+      }
+
+      .social-media {
+         position: absolute;
+         top: 14em;
+         left: 7em;
+         width: 30vw;
+         height: 20vh;
+
+         h3 {
+            font-family: $text-font;
+            font-size: 2.5em;
+            color: #ddd;
+         }
+
+         .social-icons {
+            position: absolute;
+            top: 2em;
+            left: 0.5em;
+            font-size: 3em;
+            color: #ddd;
+
+            i {
+               margin-left: 1em;
+            }
+         }
+      }
+
+      .news-letter {
+         position: absolute;
+         top: 14em;
+         left: 60em;
+
+         h3 {
+            font-size: 3em;
+            color: #ddd;
+            font-family: $text-font;
+         }   
+
+         .news-input {
+            position: absolute;
+            top: 8em;
+            width: 18vw;
+            height: 6vh;
+            border: none;
+         }
+
+         button {
+            position: absolute;
+            top: 8em;
+            left: 21.7em;
+            border: none;
+            width: 7vw;
+            height: 6vh;
+            background: $btn-color;
+            color: $text-color;
+            font-weight: 600;
+         }
+      
+      }
+   }

@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap");
+@media screen and (max-width: 500px) {
+  .main-header {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .main-header .main-nav {
+    position: relative;
+    width: 100%;
+    height: 8vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main-header .main-nav .nav-list {
+    display: none;
+  }
+  .main-header .main-nav .logo {
+    position: absolute;
+    left: 2em;
+    bottom: 1em;
+  }
+  .main-header .main-nav .menu {
+    position: absolute;
+    top: 20em;
+    color: #fff;
+  }
+  .main-header .main-nav .menu i {
+    position: absolute;
+    top: 20em;
+  }
+  .main-header .header-image {
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+  }
+  .main-header .header-text {
+    position: absolute;
+    top: 6em;
+    left: 4em;
+  }
+  .main-header .header-text h1 {
+    font-size: 1.8em;
+  }
+  .main-header .header-btn {
+    position: absolute;
+    top: 31em;
+    left: 10em;
+    width: 40vw;
+  }
+  .main-header .header-btn .btn-1 {
+    width: 21vw;
+    cursor: pointer;
+  }
+  .main-header .book-img {
+    position: absolute;
+    top: 11em;
+    left: 12em;
+  }
+  .main-header .book-img .header-book {
+    width: 26vw;
+    height: 30vh;
+  }
+  .best-book-seller {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .best-book-seller .seller-background {
+    position: absolute;
+    top: 34em;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .best-book-seller .book-header-text {
+    position: absolute;
+    top: 47em;
+    left: 9em;
+    width: 50vw;
+  }
+  .best-book-seller .book-header-text h1 {
+    font-size: 1.8em;
+  }
+  .best-book-seller .books {
+    position: relative;
+    top: 50em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 96%;
+  }
+  .best-book-seller .books .img {
+    width: 24vw;
+    height: 28vh;
+  }
+  .best-book-seller .books .img img {
+    width: 24vw;
+    height: 28vh;
+  }
+  .about {
+    position: relative;
+    top: 59em;
+    width: 100%;
+    height: 100%;
+  }
+  .about img {
+    position: absolute;
+  }
+  .about .about-title {
+    position: absolute;
+    top: 3em;
+    left: 12em;
+  }
+  .about .about-title h1 {
+    font-size: 1.8em;
+  }
+  .about .about-description {
+    position: absolute;
+    top: 5em;
+    left: 1.4em;
+    width: 87vw;
+    height: 48vh;
+    text-align: center;
+  }
+  .about .about-description p {
+    font-size: 1.2em;
+  }
+  .auther-section {
+    position: relative;
+    top: 53em;
+    width: 100%;
+    height: 100vh;
+  }
+  .auther-section .auther-background {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+  }
+  .auther-section .auther-background .auther-img {
+    width: 100%;
+    height: 150vh;
+    background-size: cover;
+  }
+  .auther-section .auther-title {
+    position: absolute;
+    top: 53em;
+    left: 11em;
+    width: 50vw;
+  }
+  .auther-section .auther-title h1 {
+    font-size: 1.7em;
+  }
+  .auther-section .auther-profiles {
+    position: absolute;
+    top: 50em;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .auther-section .auther-profiles .auther {
+    position: absolute;
+    top: 7em;
+    width: 35vw;
+    height: 26VH;
+  }
+  .auther-section .auther-profiles .auther IMG {
+    position: relative;
+    top: 1em;
+    left: 4em;
+    width: 10vw;
+    height: 6vh;
+  }
+  .auther-section .auther-profiles .auther .auther-name {
+    position: absolute;
+    top: 4.5em;
+    left: 1.4em;
+  }
+  .auther-section .auther-profiles .auther .auther-rating {
+    position: absolute;
+    top: 8.8em;
+    left: 1.4em;
+  }
+  .auther-section .auther-profiles .auther-1 {
+    position: absolute;
+    top: 21em;
+    width: 35vw;
+    height: 26VH;
+  }
+  .auther-section .auther-profiles .auther-1 IMG {
+    position: relative;
+    top: 1em;
+    left: 4em;
+    width: 10vw;
+    height: 6vh;
+  }
+  .auther-section .auther-profiles .auther-1 .auther-name {
+    position: absolute;
+    top: 4.5em;
+    left: 1.4em;
+  }
+  .auther-section .auther-profiles .auther-1 .auther-rating {
+    position: absolute;
+    top: 8.8em;
+    left: 1.4em;
+  }
+  .auther-section .auther-profiles .auther-3 {
+    position: absolute;
+    top: 35em;
+    width: 35vw;
+    height: 26VH;
+  }
+  .auther-section .auther-profiles .auther-3 IMG {
+    position: relative;
+    top: 1em;
+    left: 4em;
+    width: 10vw;
+    height: 6vh;
+  }
+  .auther-section .auther-profiles .auther-3 .auther-name {
+    position: absolute;
+    top: 4.5em;
+    left: 1.4em;
+  }
+  .auther-section .auther-profiles .auther-3 .auther-rating {
+    position: absolute;
+    top: 8.8em;
+    left: 1.4em;
+  }
+  .main-footer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 97.6em;
+  }
+  .main-footer .social-media {
+    position: absolute;
+    top: 8em;
+    left: 6em;
+    width: 30vw;
+  }
+  .main-footer .social-media h3 {
+    position: absolute;
+    left: 1.6em;
+    top: 2em;
+    font-size: 1.4em;
+    width: 48vw;
+  }
+  .main-footer .social-media .social-icons {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    right: 17em;
+    width: 50vw;
+  }
+  .main-footer .social-media .social-icons i {
+    margin: 0;
+  }
+  .main-footer .news-letter {
+    position: absolute;
+    width: 50vw;
+    left: 6em;
+    top: 21em;
+  }
+  .main-footer .news-letter h3 {
+    position: absolute;
+    top: 1em;
+    left: 3.5em;
+    font-size: 1.4em;
+  }
+  .main-footer .news-letter .news-input {
+    width: 47vw;
+  }
+  .main-footer .news-letter button {
+    position: absolute;
+    left: 17em;
+    width: 16vw;
+  }
+}
+/*# sourceMappingURL=responsive-main.css.map */
