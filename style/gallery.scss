@@ -40,6 +40,7 @@
          left: 60em;
          width: 30%;
          height: 8vh;
+         display: block;
 
          .nav-items {
             display: flex;
@@ -63,8 +64,348 @@
    height: 100%;
 
    .first-row {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+
       #mobile-gallery {
          display: none;
       }
+
+      
+
+      .images-first-row {
+         position: absolute;
+         top: 10em;
+         width: 60vw;
+         height: 45vh;
+         display: flex;
+
+            #deskt-top {
+               position: absolute;
+               width: 88vw;
+               height: 50vh;
+               display: block;
+            }
+
+            
+
+         .img {
+            position: relative;
+            top: 4em;
+            left: 8em;
+            z-index: 999;
+            width: 20vw;
+            height: 40vh;
+
+            img {
+               width: 10vw;
+               height: 30vh;
+            }
+         }
+
+         .img-1 {
+            position: relative;
+            top: 4em;
+            left: 8em;
+            z-index: 999;
+            width: 20vw;
+            height: 40vh;
+            margin-left: 3em;
+
+            img {
+               width: 10vw;
+               height: 30vh;
+            }
+         }
+
+         .img-2 {
+            position: relative;
+            top: 4em;
+            left: 8em;
+            z-index: 999;
+            width: 20vw;
+            height: 40vh;
+            margin-left: 3em;
+
+            img {
+               width: 10vw;
+               height: 30vh;
+            }
+         }
+
+         .img-3 {
+            position: relative;
+            top: 4em;
+            left: 8em;
+            z-index: 999;
+            width: 20vw;
+            height: 40vh;
+            margin-left: 3em;
+
+            img {
+               width: 10vw;
+               height: 30vh;
+            }
+         }
+
+         .img-4 {
+            position: relative;
+            top: 4em;
+            left: 8em;
+            z-index: 999;
+            display: block;
+            width: 20vw;
+            height: 40vh;
+            margin-left: 3em;
+
+            img {
+               width: 10vw;
+               height: 30vh;
+            }
+         }
+      }
+
+      .images-second-row {
+         position: relative;
+         width: 60vw;
+         height: 45vh;
+         display: flex;
+         align-items: center;
+
+         #desk-middel {
+            position: absolute;
+            width: 88vw;
+            height: 50vh;
+            top: 48em;
+            left: 10.9em;
+         }
+
+         .img-5 {
+            position: relative;
+            top: 52em;
+            left: 26em;
+            width: 20vw;
+            height: 40vh;
+            margin-left: 3em;
+
+            img {
+               width: 10vw;
+               height: 30vh;
+            }
+         }
+
+         .img-6 {
+            position: relative;
+            top: 52em;
+            left: 26em;
+            width: 20vw;
+            height: 40vh;
+            margin-left: 3em;
+
+            img {
+               width: 10vw;
+               height: 30vh;
+            }
+         }
+
+         .img-7 {
+            position: relative;
+            top: 52em;
+            left: 26em;
+            width: 20vw;
+            height: 40vh;
+            margin-left: 3em;
+
+            img {
+               width: 10vw;
+               height: 30vh;
+            }
+         }
+
+         .img-8 {
+            position: relative;
+            top: 52em;
+            left: 26em;
+            width: 20vw;
+            height: 40vh;
+            margin-left: 3em;
+
+            img {
+               width: 10vw;
+               height: 30vh;
+            }
+         }
+
+         .img-9 {
+            position: relative;
+            top: 52em;
+            left: 26em;
+            width: 20vw;
+            height: 40vh;
+            margin-left: 3em;
+
+            img {
+               width: 10vw;
+               height: 30vh;
+            }
+         }
+      }
+
+      .images-theerd-row {
+         position: relative;
+         width: 60vw;
+         height: 45vh;
+         display: flex;
+         align-items: center;
+
+         #desk-down {
+            position: absolute;
+            width: 88vw;
+            height: 50vh;
+            top: 64em;
+         }
+
+         .img-10 {
+            position: relative;
+            top: 66em;
+            left: 5em;
+            width: 20vw;
+            height: 30vh;
+            margin-left: 3em;
+
+            img {
+               width: 10vw;
+               height: 30vh;
+            }
+         }
+
+         .img-11 {
+            position: relative;
+            top: 66em;
+            left: 5em;
+            width: 20vw;
+            height: 30vh;
+            margin-left: 3em;
+
+            img {
+               width: 10vw;
+               height: 30vh;
+            }
+         }
+
+         .img-12 {
+            position: relative;
+            top: 66em;
+            left: 5em;
+            width: 20vw;
+            height: 30vh;
+            margin-left: 3em;
+
+            img {
+               width: 10vw;
+               height: 30vh;
+            }
+         }
+
+         .img-13 {
+            position: relative;
+            top: 66em;
+            left: 5em;
+            width: 20vw;
+            height: 30vh;
+            margin-left: 3em;
+
+            img {
+               width: 10vw;
+               height: 30vh;
+            }
+         }
+
+         .img-14 {
+            position: relative;
+            top: 66em;
+            left: 5em;
+            width: 20vw;
+            height: 30vh;
+            margin-left: 3em;
+
+            img {
+               width: 10vw;
+               height: 30vh;
+            }
+         }
+      }
    }
+}
+
+.main-footer {
+   position: relative;
+   top: 120em;
+   width: 100%;
+   height: 100%;
+
+   img {
+      position: absolute;
+      width: 100%;
+      height: 50vh;
+   }
+
+   .social-media {
+      position: absolute;
+      top: 6em;
+      left: 10EM;
+      width: 50%;
+      height: 30%;
+
+      h3{
+         font-family: $text-font;
+         color: $gray-color;
+         font-size: 1.8em;
+         width: 30vw;
+      }
+
+      .social-icons {
+         position: absolute;
+         top: 1.5em;
+         left: 0.7em;
+         width: 100%;
+         height: 30%;
+         font-size: 3em;
+         color: $gray-color;
+      }
+   }
+
+      .news-letter {
+         position: absolute;
+         top: 6em;
+         left: 50em;
+         width: 30%;
+         height: 30vh;
+
+         h3 {
+            font-family: $text-font;
+            color: $gray-color;
+            font-size: 1.8em;
+            width: 30vw;
+         }
+
+         .news-input {
+            position: absolute;
+            top: 5em;
+            width: 17vw;
+            height: 6vh;
+            border: none;
+         }
+
+         button {
+            position: absolute;
+            top: 5em;
+            left: 17em;
+            width: 7vw;
+            height: 6vh;
+            border: none;
+            background: $btn-color;
+         }
+      }
 }

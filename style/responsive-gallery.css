@@ -20,8 +20,8 @@
             align-items: center;
     background-color: #052340;
   }
-  .main-header .main-nav .nav-list {
-    display: none;
+  .main-header .main-nav #menu.open {
+    display: block;
   }
   .main-header .main-nav .menu {
     position: absolute;
@@ -29,6 +29,33 @@
     font-size: 2em;
     color: #fff;
     display: block;
+  }
+  .main-header .main-nav .nav-list {
+    position: absolute;
+    right: 0;
+    top: 3em;
+    left: 14.5em;
+    width: 50vw;
+    height: 40vh;
+    background: #052340;
+    z-index: 999;
+  }
+  .main-header .main-nav .nav-list .nav-items .nav-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 10vh;
+    width: 30vw;
   }
   .main-header .main-nav .logo {
     position: absolute;
@@ -58,6 +85,8 @@
   }
   .gallery-section .first-row .images-first-row {
     position: absolute;
+    top: 2em;
+    left: 0.3em;
     width: 60vw;
     height: 140vh;
     display: -webkit-box;
@@ -69,6 +98,9 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .gallery-section .first-row .images-first-row #deskt-top {
+    display: none;
   }
   .gallery-section .first-row .images-first-row .img {
     position: absolute;
@@ -84,8 +116,8 @@
   }
   .gallery-section .first-row .images-first-row .img-1 {
     position: absolute;
-    top: 50em;
-    left: 9em;
+    top: 47em;
+    left: 6em;
     width: 40vw;
     height: 35vh;
   }
@@ -96,8 +128,8 @@
   }
   .gallery-section .first-row .images-first-row .img-2 {
     position: absolute;
-    left: 9em;
-    top: 29em;
+    left: 6em;
+    top: 28em;
     width: 40vw;
     height: 35vh;
   }
@@ -108,15 +140,30 @@
   }
   .gallery-section .first-row .images-first-row .img-3 {
     position: absolute;
+    top: 66em;
+    left: 6em;
     width: 20vw;
     height: 35vh;
   }
   .gallery-section .first-row .images-first-row .img-3 img {
     position: absolute;
-    top: 45em;
-    left: 3em;
     width: 40vw;
     height: 35vh;
+  }
+  .gallery-section .first-row .images-first-row .img-4 {
+    display: none;
+  }
+  .gallery-section .first-row .images-second-row {
+    display: none;
+  }
+  .gallery-section .first-row .images-second-row #desk-middel {
+    display: none;
+  }
+  .gallery-section .first-row .images-theerd-row {
+    display: none;
+  }
+  .gallery-section .first-row .images-theerd-row #desk-down {
+    display: none;
   }
   .main-footer {
     width: 100%;
@@ -135,33 +182,38 @@
   }
   .main-footer .social-media {
     position: absolute;
-    width: 100%;
+    top: 3em;
+    left: 8em;
+    width: 50%;
     height: 26vh;
   }
   .main-footer .social-media h3 {
     position: absolute;
-    top: 1em;
-    left: 4em;
+    width: 50vw;
+    top: em;
+    left: em;
     font-family: "Roboto", sans-serif;
     color: #ddd;
     font-size: 1.8em;
   }
   .main-footer .social-media .social-icons {
     position: absolute;
-    top: 2.4em;
-    left: 4em;
+    top: 1.8em;
+    left: 1.2em;
     font-size: 2.5em;
     color: #ddd;
+    width: 30vw;
   }
   .main-footer .news-letter {
     position: absolute;
     top: 13em;
-    width: 100%;
+    left: 9em;
+    width: 50%;
     height: 23vh;
   }
   .main-footer .news-letter h3 {
     position: absolute;
-    left: 4em;
+    width: 50vw;
     font-family: "Roboto", sans-serif;
     font-size: 1.9em;
     color: #ddd;
@@ -169,7 +221,6 @@
   .main-footer .news-letter .news-input {
     position: absolute;
     top: 5em;
-    left: 8em;
     width: 42vw;
     height: 6vh;
     border: none;
@@ -177,7 +228,7 @@
   .main-footer .news-letter button {
     position: absolute;
     top: 5em;
-    left: 23em;
+    left: 15.7em;
     width: 14vw;
     height: 6vh;
     border: none;
