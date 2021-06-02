@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+body .main-nav {
+  width: 100%;
+  height: 8vh;
+  background-color: #052340;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 99;
+}
+
+body .main-nav .menu {
+  display: none;
+}
+
+body .main-nav .logo {
+  position: absolute;
+  left: 1em;
+  top: 0.6em;
+  width: 10vw;
+  height: 5vh;
+}
+
+body .main-nav .logo .logo-img {
+  width: 10vw;
+  height: 6vh;
+}
+
+body .main-nav .nav-list {
+  position: absolute;
+  left: 60em;
+  width: 30vw;
+}
+
+body .main-nav .nav-list .nav-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+body .main-nav .nav-list .nav-items .links {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: #ddd;
+}
+
+body .header-image {
+  position: relative;
+  top: 2em;
+  width: 100%;
+  height: 100%;
+}
+
+body .form1 {
+  position: absolute;
+  top: 12em;
+  left: 34em;
+  background: #ddd;
+  -webkit-box-shadow: 5px 3px 10px;
+          box-shadow: 5px 3px 10px;
+  height: 40vh;
+}
+
+body .form1 #name {
+  position: relative;
+  top: 6em;
+  left: 12em;
+  border: none;
+  height: 4vh;
+  width: 15vw;
+}
+
+body .form1 #img {
+  position: relative;
+  top: 12em;
+  right: 6em;
+}
+
+body .form1 .btn-1 {
+  border: none;
+  width: 6vw;
+  height: 5vh;
+  position: relative;
+  top: 18em;
+  right: 20em;
+  background: #FFEFA1;
+}
+
+body .tabel-1 {
+  width: 100%;
+  height: 100%;
+  background: blanchedalmond;
+}
+
+body .tabel-1 .id {
+  width: 5vw;
+  border-right: 2px #000 solid;
+  border-bottom: 2px #000 solid;
+  text-align: center;
+}
+
+body .tabel-1 .name {
+  width: 10vw;
+  border-right: 2px #000 solid;
+  text-align: center;
+  border-bottom: 2px #000 solid;
+}
+
+body .tabel-1 .tb-img {
+  width: 13vw;
+  height: 20vh;
+  text-align: center;
+  border-right: 2px #000 solid;
+  border-bottom: 2px #000 solid;
+}
+
+body .tabel-1 .edit-btn {
+  width: 13vw;
+  height: 20vh;
+  text-align: center;
+  border-right: 2px #000 solid;
+  border-bottom: 2px #000 solid;
+}
+
+body .tabel-1 .delet-btn {
+  width: 13vw;
+  height: 20vh;
+  text-align: center;
+  border-right: 2px #000 solid;
+  border-bottom: 2px #000 solid;
+}
+/*# sourceMappingURL=auteur.css.map */
